@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro",
+    "description": "Second chrome extension",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "th.jpg"
+    }
+}

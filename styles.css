@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+label {
+    font-size: 0.85rem;
+}
+input[type="number"] {
+    width: 10em;
+}
+input {
+    padding: 0.3em 0.5em;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 0.3em;
+}
+input:focus-within {
+    outline: 2px solid purple;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.btn,
+button {
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    margin: 0.5em auto;
+    padding: 0.3em 1em;
+}
+.btn:hover,
+button:hover {
+    cursor: pointer;
+}
+.errorMessage {
+    color: red;
+    text-align: center;
+    font-size: 1rem;
+}
+.hideForm {
+    display: none;
+}
+.timerContainer {
+    text-align: center;
+}
+.hideTimer {
+    display: none;
+}
